@@ -3,34 +3,26 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello world!");
-
-        String authorName = "Ionut";
-
-        System.out.println(authorName+" a plecat la piata de strada baritiu nr 9, ca sa cumpere  3 kg de mere.\nPe drum,"+authorName+" s-a intalnit cu Matilda.\nImpreuna cu Matilda au mers la piata,iar "+authorName+" a impartit cele 3 kg de mere cu Matilda");
-
+	// tema1
+        System.out.println("Hello \nNicu");
+    //tema2
         int x = 2;
-        x+=x+=x++ + ++x;
-        System.out.println(x);
-
-
-        double y = 2.4;
-
-        long z = 12314L;
-        float a = 2.4F;
-
-        int myVariable = x + 3;
-
-        double result = x + z;
+        int y = 7;
+        System.out.println(x+y);
+    //tema3
+        double z = 7;
+        int w = 3;
+        double result = z/w;
         System.out.println(result);
+    //tema4
+        int t = -5;
+        int u = 8;
+        int p =  6;
+        System.out.println(t+(u*p));
 
-        System.out.println(x + z);
-
-        System.out.println("Valarea lui x este: " + x);
-        System.out.println("Rezultatul adunarii este: " + (x + z));
-
-
+        System.out.println( (55+9) % 9 );
+        System.out.println(20 + (-3*5) / 8);
+        System.out.println( 5 + ((15 / 3) * 2) - (8 % 3) );
     }
 
 }
